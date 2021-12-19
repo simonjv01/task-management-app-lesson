@@ -1,10 +1,10 @@
-package com.baeldung.persistence.repository;
+package com.baeldung.service;
 
 import com.baeldung.persistence.model.Project;
 
 import java.util.Optional;
 
-public interface IProjectsRepository {
+public interface IProjectService {
 
     Optional<Project> findById(Long id);
 
